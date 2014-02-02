@@ -12,7 +12,7 @@ tags:
 ---
 This is the first post to my [Tealeaf Training] [1] blog.  I'm trying to use GitHub User Pages 
 and a Jekyll template for my blog.  So far it's been way too much work. I think I should have 
-just used WordPress orTumblr.
+just used WordPress or Tumblr.
 
 I thought all I would need to know was markdown but its lots of HTML/CSS and Javascript.
 I'm just not a Web developer... yet. 
