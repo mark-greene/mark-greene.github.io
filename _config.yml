@@ -17,7 +17,7 @@ author:
 comments:
     provider: disqus
     disqus:
-        short_name: markbgreene
+        short_name: mytealeaftrainingblog
 
 #analytics:
 #    provider: google
