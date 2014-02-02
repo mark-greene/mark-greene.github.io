@@ -1,9 +1,26 @@
-auto: true
 markdown: rdiscount
-permalink: /:year/:month/:day/:title
-# rdiscount extensions: [smart]
-rdiscount:
-  extensions:
-    - autolink      # greedily urlify links
-    - footnotes   # footnotes
-    - smart         # typographic substitutions with SmartyPants
+pygments: true
+
+title: My Tealeaf Training blog
+
+url: http://mark-greene.github.io
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: Mark Greene
+    email: mark.greee@yahoo.com
+    github: mark-greene
+    twitter: MarkBGreene
+    gravatar: http://www.gravatar.com/avatar/93ab561fc5272e5cc58fe43876c008c1.png
+
+comments:
+    provider: disqus
+    disqus:
+        short_name: markbgreene
+
+#analytics:
+#    provider: google
+#    google:
+#        tracking_id: 'UA-18015420-1'
+#        domain: 'in-the-attic.com'
