@@ -1,4 +1,9 @@
 auto: true
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
-rdiscount extensions: [smart]
+# rdiscount extensions: [smart]
+rdiscount:
+  extensions:
+    - autolink      # greedily urlify links
+    - footnotes   # footnotes
+    - smart         # typographic substitutions with SmartyPants
