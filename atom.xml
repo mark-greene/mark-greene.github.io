@@ -4,7 +4,7 @@
  <title>Mark Greene</title>
  <link href="http://mark-greene.github.io/atom.xml" rel="self"/>
  <link href="http://mark-greene.github.io/"/>
- <updated>2014-02-03T13:02:19-05:00</updated>
+ <updated>2014-02-03T13:31:33-05:00</updated>
  <id>http://mark-greene.github.io</id>
  <author>
    <name>Mark Greene</name>
@@ -17,7 +17,7 @@
    <updated>2014-02-03T13:30:00Z</updated>
    <id>http://mark-greene.github.io/2014/02/03/start-of-week-one</id>
    <content type="html">&lt;p&gt;OK, things are a little better with the blog.
-I think I have all links working and jekell is a little more under control.
+I think I have all links working and &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt; is a little more under control.
 It was still way too much work :)&lt;/p&gt;
 
 &lt;p&gt;Now lets get to those week one challenges...&lt;/p&gt;
@@ -30,10 +30,10 @@ It was still way too much work :)&lt;/p&gt;
    <updated>2014-02-01T09:30:00Z</updated>
    <id>http://mark-greene.github.io/2014/02/01/welcome-to-my-blog</id>
    <content type="html">&lt;p&gt;This is the first post to my &lt;a href=&quot;http://www.gotealeaf.com&quot; title=&quot;Introduction to Ruby and Web Development&quot;&gt;Tealeaf Training&lt;/a&gt; blog.  I&#39;m trying to use GitHub User Pages
-and a Jekyll template for my blog.  So far it&#39;s been way too much work. I think I should have
+and a &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll template&lt;/a&gt; for my blog.  So far it&#39;s been way too much work. I think I should have
 just used WordPress or Tumblr.&lt;/p&gt;
 
-&lt;p&gt;I thought all I would need to know was markdown but its lots of HTML/CSS and Javascript.
+&lt;p&gt;I thought markdown was all I would need to know but its lots of HTML/CSS and Javascript.
 I&#39;m just not a Web developer... yet.
 Please excuse the broken links while I figure out what I&#39;m doing.&lt;/p&gt;
 
