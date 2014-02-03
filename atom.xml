@@ -4,12 +4,25 @@
  <title>Mark Greene</title>
  <link href="http://mark-greene.github.io/atom.xml" rel="self"/>
  <link href="http://mark-greene.github.io/"/>
- <updated>2014-02-03T11:54:20-05:00</updated>
+ <updated>2014-02-03T13:02:19-05:00</updated>
  <id>http://mark-greene.github.io</id>
  <author>
    <name>Mark Greene</name>
  </author>
  
+ 
+ <entry>
+   <title>Start of week one</title>
+   <link href="http://mark-greene.github.io/2014/02/03/start-of-week-one/"/>
+   <updated>2014-02-03T13:30:00Z</updated>
+   <id>http://mark-greene.github.io/2014/02/03/start-of-week-one</id>
+   <content type="html">&lt;p&gt;OK, things are a little better with the blog.
+I think I have all links working and jekell is a little more under control.
+It was still way too much work :)&lt;/p&gt;
+
+&lt;p&gt;Now lets get to those week one challenges...&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Welcome to my blog</title>
