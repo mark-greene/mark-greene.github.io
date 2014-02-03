@@ -1,26 +1,43 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>{{ site.author.name }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Mark Greene</title>
+ <link href="http://mark-greene.github.io/atom.xml" rel="self"/>
+ <link href="http://mark-greene.github.io/"/>
+ <updated>2014-02-03T11:54:20-05:00</updated>
+ <id>http://mark-greene.github.io</id>
  <author>
-   <name>{{ site.author.name }}</name>
+   <name>Mark Greene</name>
  </author>
  
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Welcome to my blog</title>
+   <link href="http://mark-greene.github.io/2014/02/01/welcome-to-my-blog/"/>
+   <updated>2014-02-01T09:30:00Z</updated>
+   <id>http://mark-greene.github.io/2014/02/01/welcome-to-my-blog</id>
+   <content type="html">&lt;p&gt;This is the first post to my &lt;a href=&quot;http://www.gotealeaf.com&quot; title=&quot;Introduction to Ruby and Web Development&quot;&gt;Tealeaf Training&lt;/a&gt; blog.  I&#39;m trying to use GitHub User Pages
+and a Jekyll template for my blog.  So far it&#39;s been way too much work. I think I should have
+just used WordPress or Tumblr.&lt;/p&gt;
+
+&lt;p&gt;I thought all I would need to know was markdown but its lots of HTML/CSS and Javascript.
+I&#39;m just not a Web developer... yet.
+Please excuse the broken links while I figure out what I&#39;m doing.&lt;/p&gt;
+
+&lt;h5&gt;Playing around with Markdown&lt;/h5&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_cards&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cards&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cards&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-card deck&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;cards&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rank&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;suit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;  &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rank&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; of &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;suit&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+</content>
  </entry>
- {% endfor %}
+ 
  
 </feed>
