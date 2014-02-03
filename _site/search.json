@@ -1,0 +1,17 @@
+[
+  
+    {
+  "title"    : "Welcome to my blog",
+  "summary"  : "Here is where I'll be talking about my course work, what I discover and what has me stumped. ",
+  "category" : "",
+  "tags"     : ["ruby","tealeaf", null],
+  "url"      : "http://mark-greene.github.io/2014/02/01/welcome-to-my-blog/",
+  "date"     : {
+    "day"   : "01",
+    "month" : "February",
+    "year"  : "2014"
+  }
+},
+  
+  null
+]
