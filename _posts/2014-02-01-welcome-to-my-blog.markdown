@@ -20,11 +20,13 @@ Please excuse the broken links while I figure out what I'm doing.
 
 #####  Playing around with Markdown 
 
-    def print_cards cards
-      puts "#{cards.count}-card deck"
-      cards.each do | rank, suit |
-        puts "  #{rank} of #{suit}"
-      end
-    end
+{% highlight ruby %}
+def print_cards cards
+  puts "#{cards.count}-card deck"
+  cards.each do | rank, suit |
+    puts "  #{rank} of #{suit}"
+  end
+end
+{% endhighlight %}
 
 [1]: http://www.gotealeaf.com "Introduction to Ruby and Web Development"
