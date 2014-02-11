@@ -4,12 +4,28 @@
  <title>Mark Greene</title>
  <link href="http://mark-greene.github.io/atom.xml" rel="self"/>
  <link href="http://mark-greene.github.io/"/>
- <updated>2014-02-03T13:31:33-05:00</updated>
+ <updated>2014-02-10T22:51:01-05:00</updated>
  <id>http://mark-greene.github.io</id>
  <author>
    <name>Mark Greene</name>
  </author>
  
+ 
+ <entry>
+   <title>Start of week two</title>
+   <link href="http://mark-greene.github.io/2014/02/10/start-of-week-two/"/>
+   <updated>2014-02-10T22:30:00Z</updated>
+   <id>http://mark-greene.github.io/2014/02/10/start-of-week-two</id>
+   <content type="html">&lt;p&gt;This week I&#39;m working on my object oriented Blackjack game.
+My procedural version was a good starting point, I just needed to encapsulate the behavior into classes.
+I started with a Card class and a Deck class.  I decided to go with a Hand class instead of seperate Player and Dealer classes.
+My main game code went into a Blackjack class.  I creaded test for each class to make sure the behavior is correct while I refactored the code.
+I think the encapsulation works OK and my methods are farily small but there&#39;s always room for improvement.&lt;/p&gt;
+
+&lt;p&gt;Let me know what you think.  The code is in my Introduction to Ruby and Web Development Project under week-2 and
+can be found &lt;a href=&quot;http://github.com/mark-greene/intro-ruby-web/tree/master/week-2&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Start of week one</title>
